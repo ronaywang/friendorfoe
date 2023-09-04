@@ -30,7 +30,7 @@ export const FriendButton = ({ setImage }) => {
       const idx = Math.floor(Math.random() * images.length);
       setIndex(idx);
       setImage(images[idx]);
-    }, 1000);
+    }, 200);
   };
   // Call a function (passed as a prop from the parent component)
   // to handle the user-selected file
