@@ -15,6 +15,7 @@ export const FriendButton = ({ setImage }) => {
     "man10.jpg",
     "man11.jpg",
     "man12.jpg",
+    "man13.jpg",
   ];
 
   var random = Math.floor(Math.random() * images.length);
