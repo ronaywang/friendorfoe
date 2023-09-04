@@ -31,7 +31,7 @@ function App() {
         className="counter"
       >
         <img
-          src="https://www.cutercounter.com/hits.php?id=hxnckdd&nd=6&style=1"
+          src="https://www.cutercounter.com/hits.php?id=hexodkxn&nd=6&style=3"
           border="0"
           alt="hit counter"
         />
