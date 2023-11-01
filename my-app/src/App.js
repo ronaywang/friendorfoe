@@ -17,25 +17,28 @@ function App() {
     <div className="App">
       <NavBar />
 
-      <div class="gendiv">
-        <img class="centercrop imagespacer" src={image_src} />
-      </div>
-      <header className="App-header">
-        <FriendButton setImage={handleImageSrc} />
-        <FoeButton setImage={handleImageSrc} />
-      </header>
+<div class="gendiv">
+  <img class="centercrop imagespacer" src={image_src} />
+</div>
+<header className="App-header">
+  <FriendButton setImage={handleImageSrc} />
+  <FoeButton setImage={handleImageSrc} />
+</header>
 
-      <a
-        href="https://www.cutercounter.com/"
-        target="_blank"
-        className="counter"
-      >
-        <img
-          src="https://www.cutercounter.com/hits.php?id=hexodkxn&nd=6&style=3"
-          border="0"
-          alt="hit counter"
-        />
-      </a>
+<a
+  href="https://www.cutercounter.com/"
+  target="_blank"
+  className="counter"
+>
+  <img
+    src="https://www.cutercounter.com/hits.php?id=hexodkxn&nd=6&style=3"
+    border="0"
+    alt="hit counter"
+  />
+</a>
+
+      
+      
     </div>
   );
 }
